@@ -29,4 +29,21 @@ public class PartitionLabels {
         }
         return results;
     }
+
+    public List<Integer> partitionLabelsI(String s) {
+        int a = 0;
+        int b = 0;
+        List<Integer> result = new ArrayList<>();
+        for (int i = 0; i < s.length(); i++) {
+            if (s.lastIndexOf(s.charAt(i)) > a) {
+                a = s.lastIndexOf(s.charAt(i));
+            }
+            if (i == a) {
+                result.add(a + 1 - b);
+                b = a + 1;
+                a = i;
+            }
+        }
+        return result;
+    }
 }
