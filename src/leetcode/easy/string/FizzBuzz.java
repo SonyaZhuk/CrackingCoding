@@ -5,7 +5,7 @@ import java.util.List;
 
 
 /**
- * {@link <a href="https://leetcode.com/problems/fizz-buzz/submissions/">412. Fizz Buzz</a>}.
+ * {@link <a href="https://leetcode.com/problems/fizz-buzz/">412. Fizz Buzz</a>}.
  */
 public class FizzBuzz {
 
