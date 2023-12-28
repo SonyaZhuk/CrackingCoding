@@ -1,7 +1,7 @@
 package leetcode.medium;
 
 /**
- * {@link <a href="https://leetcode.com/problems/excel-sheet-column-title/">168. Excel Sheet Column Title</a>}.
+ * {@link <a href="https://leetcode.com/problems/maximum-product-subarray/">152. Maximum Product Subarray</a>}.
  */
 public class MaxProduct {
 
