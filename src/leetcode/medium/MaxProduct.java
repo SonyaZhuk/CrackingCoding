@@ -1,5 +1,8 @@
 package leetcode.medium;
 
+/**
+ * {@link <a href="https://leetcode.com/problems/excel-sheet-column-title/">168. Excel Sheet Column Title</a>}.
+ */
 public class MaxProduct {
 
     public int maxProduct(int[] nums) {
